@@ -1,0 +1,1 @@
+Privacy Policy for CalcNmore CalcNmore is built as a Freemium/Paid app. This SERVICE is provided by UNL Labs and is intended for use as is. The app does not collect, store, or transmit any personally identifiable information. All calculations and history are stored locally on your device.
