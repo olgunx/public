@@ -1,13 +1,12 @@
 {
-  "version": "1.0.1",
-  "versionCode": 2,
+  "version": "1.0.2",
+  "versionCode": 3,
   "releaseDate": "2026-11-13",
   "minAndroidSdk": 24,
   "downloadUrl": "https://raw.githubusercontent.com/olgunx/public/main/doorlink-release.apk",
   "fallbackUrl": "https://github.com/olgunx/doorlink/releases/latest/download/app-release.apk",
   "changelog": {
-    "en": "• Added Turkish language version (Issue #1)\n• Added in-app OTA update mechanism (Issue #2)\n• Fixed manual unlock multi-fire and long pulse (Issue #4)\n• Removed auto-activation fallback when laser sensor is unavailable",
-    "tr": "• Türkçe dil desteği eklendi (Sorun #1)\n• Uygulama içi OTA güncelleme mekanizması eklendi (Sorun #2)\n• Manuel kilit açmadaki çoklu ve uzun röle tetikleme sorunu giderildi (Sorun #4)\n• Lazer sensörü bulunmadığında otomatik tetikleme gecikmesi kaldırıldı"
+    "en": "• OTA Live Update Test (v1.0.2)\n• Performance optimizations and stability improvements\n• Verified seamless in-app background download and installation",
+    "tr": "• OTA Canlı Güncelleme Testi (v1.0.2)\n• Performans optimizasyonları ve kararlılık iyileştirmeleri\n• Uygulama içi arka plan indirme ve sorunsuz kurulum doğrulandı"
   }
 }
-
