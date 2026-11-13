@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoorLink - OTA Updates & Releases</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --accent: #10b981;
+      --tag: #0369a1;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 720px;
+      width: 100%;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      background: linear-gradient(135deg, #10b981, #3b82f6);
+      border-radius: 16px;
+      margin-bottom: 1rem;
+      font-size: 32px;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.75rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+    .version-title {
+      font-size: 1.35rem;
+      font-weight: 600;
+    }
+    .meta {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.25rem;
+    }
+    .changelog-box {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .changelog-box h3 {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .changelog-box ul {
+      padding-left: 1.25rem;
+      font-size: 0.95rem;
+    }
+    .changelog-box li {
+      margin-bottom: 0.35rem;
+    }
+    .actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+    .btn-primary:hover {
+      background: var(--primary-hover);
+    }
+    .btn-secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.05);
+    }
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .link-card {
+      background: rgba(15, 23, 42, 0.4);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s;
+    }
+    .link-card:hover {
+      border-color: var(--primary);
+    }
+    .link-card h4 {
+      font-size: 0.95rem;
+      margin-bottom: 0.25rem;
+      color: var(--primary);
+    }
+    .link-card p {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 2.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">🚪</div>
+      <h1>DoorLink</h1>
+      <p class="subtitle">Zero-Interaction Smart Entry & Access Control</p>
+    </header>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="version-title">Release v1.0.1 (Build 2)</div>
+        <span class="badge">Latest Release</span>
+      </div>
+      <div class="meta">Released on November 13, 2026 • Minimum Android 7.0+ (API 24+)</div>
+
+      <div class="changelog-box">
+        <h3>What's New</h3>
+        <ul>
+          <li>Added in-app Over-The-Air (OTA) update support (Issue #2).</li>
+          <li>Added Turkish language support in settings and localized all app strings (Issue #1).</li>
+          <li>Fixed manual unlock multi-fire and excessive relay activation pulse (Issue #4).</li>
+          <li>Removed automatic unlock fallback when the physical laser sensor is not detected.</li>
+        </ul>
+      </div>
+
+      <div class="actions">
+        <a class="btn btn-primary" href="https://github.com/olgunx/doorlink/releases/latest/download/app-release.apk" download>
+          ⬇️ Download APK
+        </a>
+        <a class="btn btn-secondary" href="app_version.json" target="_blank">
+          📄 Version Manifest (JSON)
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-bottom: 1rem; font-size: 1.1rem;">OTA & Developer Resources</h3>
+      <div class="links-grid">
+        <a class="link-card" href="https://github.com/olgunx/doorlink" target="_blank">
+          <h4>GitHub Repository</h4>
+          <p>Source code, issue tracker, and documentation</p>
+        </a>
+        <a class="link-card" href="https://github.com/olgunx/doorlink/releases" target="_blank">
+          <h4>All Releases</h4>
+          <p>Browse past versions and full changelogs</p>
+        </a>
+        <a class="link-card" href="https://raw.githubusercontent.com/olgunx/doorlink/main/app_version.json" target="_blank">
+          <h4>Raw Manifest URL</h4>
+          <p>Live endpoint queried by DoorLink app for OTA</p>
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      DoorLink Open Source Smart Lock Protocol • UNL Labs
+    </footer>
+  </div>
+</body>
+</html>
