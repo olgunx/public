@@ -1,12 +1,12 @@
 {
-  "version": "1.0.5",
-  "versionCode": 6,
+  "version": "1.0.6",
+  "versionCode": 7,
   "releaseDate": "2026-11-18",
   "minAndroidSdk": 24,
   "downloadUrl": "https://raw.githubusercontent.com/olgunx/public/main/doorlink-release.apk",
   "fallbackUrl": "https://github.com/olgunx/doorlink/releases/latest/download/app-release.apk",
   "changelog": {
-    "en": "• Fixed Admin 'Connect & Refresh Lock Data' BLE GATT communication (#5)\n• Improved BLE scan resiliency and connection reuse for connected locks\n• Fixed UUID discovery and reading of lock status, hardware ID, and enrolled users\n• Added visual feedback (SnackBar & user count) and confirmation dialog for user revocation",
-    "tr": "• Yönetici 'Bağlan & Kilit Verilerini Yenile' BLE GATT iletişimi düzeltildi (#5)\n• Bağlı kilitler için BLE tarama ve bağlantı yeniden kullanımı iyileştirildi\n• Kilit durumu, donanım kimliği ve kayıtlı kullanıcılar için UUID tespiti ve okuması düzeltildi\n• Görsel bildirimler (SnackBar & kullanıcı sayısı) ve kullanıcı yetki kaldırma için onay penceresi eklendi"
+    "en": "• Moved 'Check AP Status' button from Home screen to Admin panel (#6)\n• Fixed AP status characteristic reading and real-time state synchronization\n• Added OTA CDN cache-busting and GitHub Pages primary manifest support",
+    "tr": "• 'AP Durumunu Kontrol Et' butonu Ana Sayfadan Yönetici paneline taşındı (#6)\n• AP durum karakteristiği okuması ve anlık durum senkronizasyonu düzeltildi\n• OTA CDN önbellek aşma ve GitHub Pages birincil kaynak desteği eklendi"
   }
 }
