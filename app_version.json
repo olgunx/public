@@ -1,12 +1,12 @@
 {
-  "version": "1.0.6",
-  "versionCode": 7,
+  "version": "1.0.7",
+  "versionCode": 8,
   "releaseDate": "2026-11-18",
   "minAndroidSdk": 24,
   "downloadUrl": "https://raw.githubusercontent.com/olgunx/public/main/doorlink-release.apk",
   "fallbackUrl": "https://github.com/olgunx/doorlink/releases/latest/download/app-release.apk",
   "changelog": {
-    "en": "• Moved 'Check AP Status' button from Home screen to Admin panel (#6)\n• Fixed AP status characteristic reading and real-time state synchronization\n• Added OTA CDN cache-busting and GitHub Pages primary manifest support",
-    "tr": "• 'AP Durumunu Kontrol Et' butonu Ana Sayfadan Yönetici paneline taşındı (#6)\n• AP durum karakteristiği okuması ve anlık durum senkronizasyonu düzeltildi\n• OTA CDN önbellek aşma ve GitHub Pages birincil kaynak desteği eklendi"
+    "en": "• Updated app icon: Modern flagship smartphone in center wirelessly unlocking door\n• High-contrast unlocked padlock beacon and glowing wireless communication pulses\n• Clean launcher mipmaps across all screen densities",
+    "tr": "• Güncellenmiş uygulama simgesi: Merkezde kapıyı kablosuz açan modern akıllı telefon\n• Yüksek kontrastlı kilit açma sinyali ve parlak kablosuz iletişim dalgaları\n• Tüm ekran çözünürlüklerinde net başlatıcı simgeleri"
   }
 }
