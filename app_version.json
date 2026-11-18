@@ -1,13 +1,12 @@
 {
-  "version": "1.0.3",
-  "versionCode": 4,
-  "releaseDate": "2026-11-16",
+  "version": "1.0.4",
+  "versionCode": 5,
+  "releaseDate": "2026-11-18",
   "minAndroidSdk": 24,
   "downloadUrl": "https://raw.githubusercontent.com/olgunx/public/main/doorlink-release.apk",
   "fallbackUrl": "https://github.com/olgunx/doorlink/releases/latest/download/app-release.apk",
   "changelog": {
-    "en": "• Multi-lock support: pair and manage multiple DoorLink devices\n• Concurrent BLE beacon scanning and matching across locks\n• Dynamic lock status and in-range lock indicators\n• ESP32 position-fixing apparatus and E18-D80NK enclosure support",
-    "tr": "• Çoklu kilit desteği: birden fazla DoorLink cihazını eşleştirin ve yönetin\n• Kilitler arasında eşzamanlı BLE tarama ve eşleştirme\n• Dinamik kilit durumu ve menzildeki kilit göstergeleri\n• ESP32 sabitleme aparatı ve E18-D80NK kasa desteği"
+    "en": "• New iconic app icon illustrating hands-free automatic entry with market bags\n• Recognizable architectural front door with high-visibility wireless unlock waves\n• Clean genderless pictogram and updated high-contrast launcher mipmaps",
+    "tr": "• Eller serbest market poşetleriyle otomatik girişi simgeleyen yeni uygulama simgesi\n• Yüksek görünürlüklü kablosuz kilit açma dalgalarına sahip tanınabilir ön kapı\n• Cinsiyetsiz piktogram ve güncellenmiş yüksek kontrastlı başlatıcı simgeleri"
   }
 }
-
