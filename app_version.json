@@ -1,12 +1,12 @@
 {
-  "version": "1.0.8",
-  "versionCode": 9,
+  "version": "1.0.9",
+  "versionCode": 10,
   "releaseDate": "2026-11-18",
   "minAndroidSdk": 24,
   "downloadUrl": "https://raw.githubusercontent.com/olgunx/public/main/doorlink-release.apk",
   "fallbackUrl": "https://github.com/olgunx/doorlink/releases/latest/download/app-release.apk",
   "changelog": {
-    "en": "• Fixed paired lock name wrapping issue (#9)\n• Replaced cramped ListTile with structured responsive card layout\n• Added overflow ellipsis and compact action buttons for long lock names",
-    "tr": "• Eşleştirilmiş kilit adı dikey kayma ve metin sarma sorunu düzeltildi (#9)\n• Sıkışık ListTile yerine duyarlı ve ferah kart düzeni getirildi\n• Uzun kilit isimleri için taşma yönetimi ve kompakt işlem butonları eklendi"
+    "en": "• Redesigned Settings into structured sub-pages (#7)\n• Moved Admin and Diagnostics into Settings to streamline root navigation to 2 tabs\n• Grouped settings: Paired Locks, Credentials & Fingerprint, Preferences, Diagnostics, Admin, About",
+    "tr": "• Ayarlar menüsü kategorize edilmiş alt sayfalara bölündü (#7)\n• Yönetici ve Tanılama sekmeleri Ayarlar içine taşınarak alt menü 2 sekmeye sadeleştirildi\n• Gruplandırma: Eşleşen Kilitler, Kimlik Bilgileri & Parmak İzi, Tercihler, Tanılama, Kilit Yönetimi, Hakkında"
   }
 }
