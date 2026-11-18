@@ -1,12 +1,12 @@
 {
-  "version": "1.0.4",
-  "versionCode": 5,
+  "version": "1.0.5",
+  "versionCode": 6,
   "releaseDate": "2026-11-18",
   "minAndroidSdk": 24,
   "downloadUrl": "https://raw.githubusercontent.com/olgunx/public/main/doorlink-release.apk",
   "fallbackUrl": "https://github.com/olgunx/doorlink/releases/latest/download/app-release.apk",
   "changelog": {
-    "en": "• New iconic app icon illustrating hands-free automatic entry with market bags\n• Recognizable architectural front door with high-visibility wireless unlock waves\n• Clean genderless pictogram and updated high-contrast launcher mipmaps",
-    "tr": "• Eller serbest market poşetleriyle otomatik girişi simgeleyen yeni uygulama simgesi\n• Yüksek görünürlüklü kablosuz kilit açma dalgalarına sahip tanınabilir ön kapı\n• Cinsiyetsiz piktogram ve güncellenmiş yüksek kontrastlı başlatıcı simgeleri"
+    "en": "• Fixed Admin 'Connect & Refresh Lock Data' BLE GATT communication (#5)\n• Improved BLE scan resiliency and connection reuse for connected locks\n• Fixed UUID discovery and reading of lock status, hardware ID, and enrolled users\n• Added visual feedback (SnackBar & user count) and confirmation dialog for user revocation",
+    "tr": "• Yönetici 'Bağlan & Kilit Verilerini Yenile' BLE GATT iletişimi düzeltildi (#5)\n• Bağlı kilitler için BLE tarama ve bağlantı yeniden kullanımı iyileştirildi\n• Kilit durumu, donanım kimliği ve kayıtlı kullanıcılar için UUID tespiti ve okuması düzeltildi\n• Görsel bildirimler (SnackBar & kullanıcı sayısı) ve kullanıcı yetki kaldırma için onay penceresi eklendi"
   }
 }
