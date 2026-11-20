@@ -1,12 +1,12 @@
 {
-  "version": "1.0.10",
-  "versionCode": 11,
+  "version": "1.0.11",
+  "versionCode": 12,
   "releaseDate": "2026-11-20",
   "minAndroidSdk": 24,
   "downloadUrl": "https://raw.githubusercontent.com/olgunx/public/main/doorlink-release.apk",
   "fallbackUrl": "https://github.com/olgunx/doorlink/releases/latest/download/app-release.apk",
   "changelog": {
-    "en": "• ESP32-C3 SuperMini board support with single status LED on GPIO 8 (#12)\n• E18-D80NK digital proximity sensor support on GPIO 4 with parallel OR logic (#13)\n• Lock registration tracking in app: distinguishes paired vs registered locks with live status badges",
-    "tr": "• GPIO 8 üzerinde tek durum LED'i ile ESP32-C3 SuperMini kart desteği (#12)\n• GPIO 4 üzerinde paralel VEYA mantığı ile E18-D80NK dijital yakınlık sensörü desteği (#13)\n• Uygulamada kilit kayıt takibi: eşleşmiş ve kayıtlı kilitleri canlı durum rozetleriyle ayırma"
+    "en": "• Fixed live UI refresh across all settings subpages without exiting/re-entering (#10)\n• Added real-time Bluetooth status banner on home screen with one-tap turn on (#11)",
+    "tr": "• Ayarlar alt sayfalarında çıkıp girmeden anlık canlı UI güncellemesi düzeltildi (#10)\n• Ana ekranda tek dokunuşla açma özellikli gerçek zamanlı Bluetooth durum uyarısı eklendi (#11)"
   }
 }
