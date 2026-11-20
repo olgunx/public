@@ -1,12 +1,12 @@
 {
-  "version": "1.0.11",
-  "versionCode": 12,
+  "version": "1.0.12",
+  "versionCode": 13,
   "releaseDate": "2026-11-20",
   "minAndroidSdk": 24,
   "downloadUrl": "https://raw.githubusercontent.com/olgunx/public/main/doorlink-release.apk",
   "fallbackUrl": "https://github.com/olgunx/doorlink/releases/latest/download/app-release.apk",
   "changelog": {
-    "en": "• Fixed live UI refresh across all settings subpages without exiting/re-entering (#10)\n• Added real-time Bluetooth status banner on home screen with one-tap turn on (#11)",
-    "tr": "• Ayarlar alt sayfalarında çıkıp girmeden anlık canlı UI güncellemesi düzeltildi (#10)\n• Ana ekranda tek dokunuşla açma özellikli gerçek zamanlı Bluetooth durum uyarısı eklendi (#11)"
+    "en": "• Multi-lock support: manual lock pinning and automatic RSSI hysteresis switching between doors\n• Firmware: simplified one-line BOARD_TYPE selection in config.h",
+    "tr": "• Çoklu kilit desteği: manuel kilit sabitleme ve kapılar arasında otomatik RSSI histerezis geçişi\n• Bellenim: config.h içinde sadeleştirilmiş tek satır BOARD_TYPE seçimi"
   }
 }
