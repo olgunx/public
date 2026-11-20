@@ -1,12 +1,12 @@
 {
-  "version": "1.0.9",
-  "versionCode": 10,
-  "releaseDate": "2026-11-18",
+  "version": "1.0.10",
+  "versionCode": 11,
+  "releaseDate": "2026-11-20",
   "minAndroidSdk": 24,
   "downloadUrl": "https://raw.githubusercontent.com/olgunx/public/main/doorlink-release.apk",
   "fallbackUrl": "https://github.com/olgunx/doorlink/releases/latest/download/app-release.apk",
   "changelog": {
-    "en": "• Redesigned Settings into structured sub-pages (#7)\n• Moved Admin and Diagnostics into Settings to streamline root navigation to 2 tabs\n• Grouped settings: Paired Locks, Credentials & Fingerprint, Preferences, Diagnostics, Admin, About",
-    "tr": "• Ayarlar menüsü kategorize edilmiş alt sayfalara bölündü (#7)\n• Yönetici ve Tanılama sekmeleri Ayarlar içine taşınarak alt menü 2 sekmeye sadeleştirildi\n• Gruplandırma: Eşleşen Kilitler, Kimlik Bilgileri & Parmak İzi, Tercihler, Tanılama, Kilit Yönetimi, Hakkında"
+    "en": "• ESP32-C3 SuperMini board support with single status LED on GPIO 8 (#12)\n• E18-D80NK digital proximity sensor support on GPIO 4 with parallel OR logic (#13)\n• Lock registration tracking in app: distinguishes paired vs registered locks with live status badges",
+    "tr": "• GPIO 8 üzerinde tek durum LED'i ile ESP32-C3 SuperMini kart desteği (#12)\n• GPIO 4 üzerinde paralel VEYA mantığı ile E18-D80NK dijital yakınlık sensörü desteği (#13)\n• Uygulamada kilit kayıt takibi: eşleşmiş ve kayıtlı kilitleri canlı durum rozetleriyle ayırma"
   }
 }
